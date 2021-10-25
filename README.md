@@ -24,7 +24,7 @@ Installation with Docker is the preferred way!
 
 Clone the examples repo from `git@github.com:abaldeweg/desk_docker.git`.
 
-Change into the new created directory, create a `.env` file and define/ change the env vars - particularly the passwords.
+Change into the new created directory, create a `.env` file and define/change the env vars - particularly the passwords.
 
 ```env
 //.env
@@ -40,17 +40,9 @@ APP_ENV=prod
 APP_SECRET=secret
 JWT_PASSPHRASE=passphrase
 CORS_ALLOW_ORIGIN='^https?://(localhost|DOMAIN)(:[0-9]+)?$'
-APP_LOGO='logo.png'
 
 VUE_APP_API='DOMAIN'
 VUE_APP_I18N_LOCALE='de-DE'
-```
-
-To authenticate your users, you need to generate the SSL keys under `jwt/`.
-
-```shell
-openssl genrsa -out jwt/private.pem -aes256 4096
-openssl rsa -pubout -in jwt/private.pem -out jwt/public.pem
 ```
 
 Run `./setup` to start the container.
@@ -218,4 +210,4 @@ yarn build
 
 ## Architecture
 
-All Code needs to be checked. For that PHP-CS-Fixer, ESLint, SonarQube, Unit-Tests and E2E-Tests are in place. Security Alerts for dependencies should be active and Best Practices for coding needs to be followed. As frameworks were chosen Symfony and VueJS because of their free licenses and wide spread. The resulting code should also be released under a free license.
+All Code needs to be checked. For that PHP-CS-Fixer, ESLint, SonarQube, CI-Tools, Unit-Tests and E2E-Tests are in place. Security Alerts for dependencies should be active and Best Practices for coding needs to be followed. As frameworks were chosen Symfony and VueJS because of their free licenses and wide spread. The resulting code should also be released under a free license.
