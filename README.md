@@ -30,6 +30,8 @@ Change into the new created directory, create a `.env` file and define/change th
 //.env
 
 COMPOSE_PROJECT_NAME=desk
+PORT_CORE=9011
+PORT_LETTER=9012
 
 DATABASE_NAME=desk
 DATABASE_USER=admin
@@ -208,6 +210,8 @@ yarn build
 - VUE_APP_I18N_LOCALE - The locale e.g. `de-DE`
 - VUE_APP_I18N_FALLBACK_LOCALE - Like `VUE_APP_I18N_LOCALE`, but as a last ressort
 - VUE_APP_BASE_URL - The Base URL, in case the app is installed in a subdir.
+- PORT_CORE - Port for core
+- PORT_LETTER - Port for letter
 
 ## Architecture
 
