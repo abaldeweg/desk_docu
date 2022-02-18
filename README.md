@@ -1,6 +1,6 @@
 # Documentation for baldeweg Desk
 
-baldeweg Desk contains services like letter and wiki.
+baldeweg Desk contains services like letter.
 
 ## Repositories
 
@@ -32,7 +32,6 @@ Change into the new created directory, create a `.env` file and define/change th
 COMPOSE_PROJECT_NAME=desk
 PORT_CORE=9011
 PORT_LETTER=9012
-PORT_WIKI=9013
 
 DATABASE_NAME=desk
 DATABASE_USER=admin
@@ -213,7 +212,6 @@ yarn build
 - VUE_APP_BASE_URL - The Base URL, in case the app is installed in a subdir.
 - PORT_CORE - Port for core
 - PORT_LETTER - Port for letter
-- PORT_WIKI - Port for wiki
 
 ## Architecture
 
