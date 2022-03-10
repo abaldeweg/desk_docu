@@ -11,7 +11,7 @@ baldeweg Desk contains services like letter.
 
 ## Requirements
 
-- PHP 8.0
+- PHP 8.1
 - PHP Composer
 - NodeJS 12LTS
 - Yarn
