@@ -13,7 +13,7 @@ baldeweg Desk contains services like letter.
 
 - PHP 8.1
 - PHP Composer
-- NodeJS 12LTS
+- NodeJS 13LTS
 - Yarn
 - MySQL
 - SSH Access
