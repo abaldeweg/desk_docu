@@ -215,6 +215,7 @@ yarn build
 - VUE_APP_BASE_URL - The Base URL, in case the app is installed in a subdir.
 - PORT_CORE - Port for core
 - PORT_LETTER - Port for letter
+- PROXY_DOMAIN - Service name of the php-fpm instance
 
 ## Architecture
 
