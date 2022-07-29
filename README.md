@@ -46,7 +46,6 @@ JWT_PASSPHRASE=passphrase
 CORS_ALLOW_ORIGIN='^https?://(localhost|DOMAIN)(:[0-9]+)?$'
 
 VUE_APP_API='DOMAIN'
-VUE_APP_I18N_LOCALE='de-DE'
 ```
 
 Run `./setup` to start the container.
@@ -211,7 +210,6 @@ yarn build
 - JWT_PASSPHRASE - Password for the JWT key files
 - CORS_ALLOW_ORIGIN - Defines from which domains requests are allowed (CORS on Browsers)
 - VUE_APP_API - URL to the backend
-- VUE_APP_I18N_LOCALE - The locale e.g. `de-DE`
 - VUE_APP_BASE_URL - The Base URL, in case the app is installed in a subdir.
 - PORT_CORE - Port for core
 - PORT_LETTER - Port for letter
